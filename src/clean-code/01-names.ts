@@ -12,7 +12,7 @@
     ]; 
     
     // Archivos marcados para borrar - files to delete
-    const files_to_delete = files.map( f => f.flagged );
+    const files_to_delete = files.map( files => files.flagged );
 
     
     class AbstractUser { };
